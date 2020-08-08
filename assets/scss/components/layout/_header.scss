@@ -1,0 +1,41 @@
+header {
+    padding: 20px 0;
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0,0,0,0.06);
+
+    .logo{
+        img{
+            width: 120px;
+        }
+    }
+
+    nav {
+        margin-left: auto;
+
+        ul {
+            li {
+                display: inline-block;
+                margin-right: 26px;
+
+                a {
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: $color-black-light;
+                    transition: .1s ease;
+                    
+                    i {
+                        margin-left: 14px;
+                    }
+
+                    &:hover{
+                        color: $color-black-light_hover;
+                    }
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

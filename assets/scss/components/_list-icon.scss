@@ -1,0 +1,29 @@
+.list {
+    &-with-icon {
+        &_item {
+            display: flex;
+            align-items: center;
+
+            &__icon {
+                display: flex;
+                align-items: center;  
+                justify-content: center;  
+                width: 30px;
+                height: 30px;
+                background-color: $color-pink_light;
+                border-radius: 50%;
+                i{
+                    font-size: 15px;
+                    color: $color-pink;
+                }
+            }
+            &__label {
+                margin-left: 18px;
+                font-size: 17px;
+                color: $color-black_light;
+                letter-spacing: 0.6px;
+                line-height: 27px;
+            }
+        }
+    }
+}
